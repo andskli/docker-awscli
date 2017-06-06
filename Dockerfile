@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-ENV AWSCLI_VERSION 1.11.57
+ENV AWSCLI_VERSION 1.11.98
 
 RUN apk --no-cache --update add ca-certificates py-pip py-setuptools groff less \
  && rm -rf /var/cache/apk/* \
